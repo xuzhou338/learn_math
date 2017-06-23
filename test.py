@@ -1,7 +1,6 @@
-import pygal
+a = [1, 2, 3, 4]
+b = [3, 5, 1, 5 ,2]
+c = zip(a,b)
 
-bar = pygal.Bar()
-data = [23, 12, 12, 32, 9]
-bar.x_labels = ('Mon', 'Tue', 'Wed', 'Thur', 'Fri')
-bar.add('Dinner Expense', data)
-bar.render_in_browser()
+for x, y in c:
+    print(x, y)
