@@ -1,5 +1,6 @@
 import sympy as sp
 
+
 def graphical_equation_solver(expr1, expr2):
     """This function solves the two expressions and then plot the two
     expressions on the graph."""
