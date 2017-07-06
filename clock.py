@@ -33,7 +33,7 @@ def update_time(i):
     minute, = ax.plot((theta_min, theta_min), (0, 0.7), linewidth=2, c='black')
     theta_hr = -t['hour'] * np.pi / 6 + np.pi / 2 - t['minute'] * np.pi / 360
     hour, = ax.plot((theta_hr, theta_hr), (0, 0.5), linewidth=2, c='black')
-
+    ax.format_coord = lambda x, y: ""
     return second, minute, hour
 
 # Plot the animation
