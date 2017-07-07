@@ -1,6 +1,7 @@
-from barnsley_fern import get_index
+import numpy as np
 
 
-probability = [0.85, 0.07, 0.07, 0.01]
-t = get_index(probability)
-print(t)
+a = [1, 2, 3, 4]
+b = np.array(a).reshape(2, 2)
+print(b)
+print(b[0])

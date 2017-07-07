@@ -2,7 +2,7 @@ from matplotlib import pyplot as plt
 
 
 def create_circle():
-    circle = plt.Circle((0, 0), radius=0.5, fc=None, ec='g')
+    circle = plt.Circle((0, 0), radius=0.5)
     return circle
 
 def show_shape(patch):
